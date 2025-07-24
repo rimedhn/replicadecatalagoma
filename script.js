@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // REEMPLAZA ESTA URL CON LA URL DE TU HOJA DE GOOGLE SHEETS PUBLICADA COMO JSON
-    const GOOGLE_SHEET_JSON_URL = 'https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/gviz/tq?tqx=out:json&gid=YOUR_GID'; // EJEMPLO
+    const GOOGLE_SHEET_JSON_URL = 'https://docs.google.com/spreadsheets/d/1b5BNElgn1F_mMoNkNyVlElp5A3COMF3Wv7JwYNhqLvg/gviz/tq?tqx=out:json&gid=0'; // EJEMPLO
 
     const productListSection = document.querySelector('.product-list');
     const searchInput = document.getElementById('searchInput');
