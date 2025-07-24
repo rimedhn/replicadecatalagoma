@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Tu Marca</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="catalog">
+        <div class="search-filter">
+            <input type="text" id="searchInput" placeholder="Buscar productos...">
+            <select id="categoryFilter">
+                <option value="all">Todas las categorías</option>
+                </select>
+            <button id="resetFilters">Limpiar Filtros</button>
+        </div>
+        <section class="product-list">
+            <p id="loadingMessage">Cargando productos...</p>
+        </section>
+        <div id="noProductsFound" style="display: none; text-align: center; padding: 20px;">
+            <p>No se encontraron productos que coincidan con tu búsqueda o filtros.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tu Marca. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
