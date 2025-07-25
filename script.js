@@ -123,3 +123,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cargar productos cuando el DOM esté listo
     fetchProductsFromSheet();
 });
+
+// Ejemplo genérico, consulta la documentación de la librería específica
+document.addEventListener('DOMContentLoaded', function() {
+    // Si usas SimpleLightbox:
+    var lightbox = new SimpleLightbox('.product-gallery a');
+    // Si usas fslightbox.js (solo necesitas los atributos data-fslightbox en el HTML):
+    // RefreshFsLightbox();
+    // Si usas GLightbox:
+    // var lightbox = GLightbox({ selector: '[data-lightbox]' });
+});
