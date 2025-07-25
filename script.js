@@ -82,7 +82,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const productCard = document.createElement('div');
             productCard.classList.add('product-card');
             productCard.innerHTML = `
+                <a href="${imageUrl}" data-lightbox="product-gallery" data-title="${product.name}">
                 <img src="${product.imagen || 'https://via.placeholder.com/200?text=No+Image'}" alt="${product.nombre || 'Producto sin nombre'}">
+                </a>
                 <h3>${product.nombre || 'Producto sin nombre'}</h3>
                 <p class="description">${product.descripcion || 'Sin descripción.'}</p>
                 <p class="price">${product.precio ? `$${parseFloat(product.precio).toFixed(2)}` : 'Precio no disponible'}</p>
