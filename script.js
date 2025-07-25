@@ -131,5 +131,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Si usas fslightbox.js (solo necesitas los atributos data-fslightbox en el HTML):
     //RefreshFsLightbox();
     // Si usas GLightbox:
-    var lightbox = GLightbox({ selector: '[data-lightbox]' });
+    //var lightbox = GLightbox({ selector: '[data-lightbox]' });
 });
