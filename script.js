@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Si usas SimpleLightbox:
     //var lightbox = new SimpleLightbox('.product-gallery a');
     // Si usas fslightbox.js (solo necesitas los atributos data-fslightbox en el HTML):
-    RefreshFsLightbox();
+    //RefreshFsLightbox();
     // Si usas GLightbox:
-    // var lightbox = GLightbox({ selector: '[data-lightbox]' });
+    var lightbox = GLightbox({ selector: '[data-lightbox]' });
 });
