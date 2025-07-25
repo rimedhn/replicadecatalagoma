@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h3>${product.nombre || 'Producto sin nombre'}</h3>
                 <p class="description">${product.descripcion || 'Sin descripción.'}</p>
                 <p class="price">${product.precio ? `$${parseFloat(product.precio).toFixed(2)}` : 'Precio no disponible'}</p>
-                //<button>Ver Detalles</button>
+                
             `;
             // Puedes añadir un evento de clic al botón "Ver Detalles" si necesitas una vista de detalle
             productListSection.appendChild(productCard);
